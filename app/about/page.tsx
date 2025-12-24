@@ -15,31 +15,19 @@ import Image from "next/image";
 export default function AboutPage() {
   const experience = [
     {
-      period: "2022 - Present",
-      role: "Senior Frontend Developer",
-      company: "Tech Innovations Inc.",
+      period: "March 2025 - Present",
+      role: "Middle- Junior Frontend Developer",
+      company: "HBLAB JSC",
       description:
-        "Leading frontend development team, building enterprise-level applications, optimizing performance and user experience",
+        "Developed responsive web applications for various clients like Singapore , Korea, Japan , focusing on modern technology stack",
       achievements: [
-        "Reduced page load time by 40%",
-        "Refactored core component library, improved code reusability by 60%",
-        "Mentored 5 junior developers",
-      ],
-    },
-    {
-      period: "2020 - 2022",
-      role: "Frontend Developer",
-      company: "Digital Solutions Co.",
-      description:
-        "Developed responsive web applications for various clients, focusing on modern technology stack",
-      achievements: [
-        "Successfully delivered 15+ client projects",
+        "Successfully delivered 4+ client projects",
         "Established automated testing workflows",
         "Improved user satisfaction to 95%",
       ],
     },
     {
-      period: "2018 - 2020",
+      period: "2022 - 2024",
       role: "Junior Developer",
       company: "StartUp Labs",
       description:
@@ -54,9 +42,9 @@ export default function AboutPage() {
 
   const education = [
     {
-      year: "2014 - 2018",
-      degree: "Bachelor of Computer Science",
-      school: "University of Technology",
+      year: "2019 - 2023",
+      degree: "Bachelor of Information and Technology",
+      school: "Ha noi University of  Neural Resources and Environment",
       description: "Focused on software engineering and web development",
     },
   ];
@@ -176,14 +164,13 @@ export default function AboutPage() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.2 + index * 0.1 }}
-                  whileHover={{ scale: 1.02 }}
                 >
                   <div className="flex justify-between items-start mb-3">
                     <div>
                       <h3 className="text-white text-xl font-semibold">
                         {exp.role.split(" ").pop()}
                       </h3>
-                      <p className="text-white/60 text-sm">{exp.role}</p>
+                      <p className="text-white text-sm">{exp.role}</p>
                     </div>
                     <span className="text-white/40 text-xs bg-[#252525] px-3 py-1 rounded-lg">
                       {exp.period}
@@ -225,53 +212,6 @@ export default function AboutPage() {
                   <p className="text-white/70 text-sm">{edu.description}</p>
                 </motion.div>
               ))}
-
-              {/* Additional education placeholders to match design */}
-              <motion.div
-                className=" rounded-3xl p-6"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.4 }}
-                whileHover={{ scale: 1.02 }}
-              >
-                <div className="flex justify-between items-start mb-3">
-                  <div>
-                    <h3 className="text-white text-xl font-semibold">
-                      Diploma
-                    </h3>
-                    <p className="text-white/60 text-sm">
-                      Animation and Graphic Design
-                    </p>
-                  </div>
-                  <span className="text-white/40 text-xs bg-[#252525] px-3 py-1 rounded-lg">
-                    2017-19
-                  </span>
-                </div>
-                <p className="text-white/70 text-sm">Delhi, India</p>
-              </motion.div>
-
-              <motion.div
-                className=" rounded-3xl p-6"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.5 }}
-                whileHover={{ scale: 1.02 }}
-              >
-                <div className="flex justify-between items-start mb-3">
-                  <div>
-                    <h3 className="text-white text-xl font-semibold">
-                      High School
-                    </h3>
-                    <p className="text-white/60 text-sm">Intermediate</p>
-                  </div>
-                  <span className="text-white/40 text-xs bg-[#252525] px-3 py-1 rounded-lg">
-                    2017
-                  </span>
-                </div>
-                <p className="text-white/70 text-sm">
-                  Delhi, Cantonment, India
-                </p>
-              </motion.div>
             </div>
           </div>
 
