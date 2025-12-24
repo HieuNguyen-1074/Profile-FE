@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 @import "tailwindcss";
 
+
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --accent: #3b82f6;
+  --muted: #6b7280;
 }
 
 @theme inline {
@@ -12,15 +19,60 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    /* font-family: "Momo Trust Display", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Inconsolata", monospace;
+
+
+  font-style: normal;
+}
+.font-momo {
+  /* font-family: "Momo Trust Display", sans-serif; */
+
+}
+.gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hobbit Text Animation Styles */
+.hobbit-text-container {
+  display: inline-flex;
+  align-items: center;
+  perspective: 1000px;
+  min-height: 1.2em;
+}
+
+.hobbit-text-container .cursor {
+  margin-left: 2px;
+  font-weight: 100;
+}
+.hide-scrollbar {
+  /* For Internet Explorer, Edge, and modern Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.project-title {
+transform-origin:  "left";
+ 
+}
+/* For Chrome, Safari, and Opera (WebKit browsers) */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
 }
