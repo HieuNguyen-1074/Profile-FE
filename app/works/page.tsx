@@ -169,9 +169,32 @@ export default function WorksPage() {
     },
     {
       id: 4,
+      index: 3,
+      title: "AirBnb Clone",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/anime-3b6ad.appspot.com/o/images%2FScreenshot_58.png?alt=media&token=95e84246-5922-4238-a7d1-2979c7b045fb",
+      date: "Nov 2023",
+      category: "Personal Project ",
+      video:
+        "https://firebasestorage.googleapis.com/v0/b/anime-3b6ad.appspot.com/o/video%2Fbandicam-2025-12-25-17-15-37-634_jEvfITwQ.mp4?alt=media&token=f935ed76-abe9-4991-950c-669fef8fb188",
+      techs: [
+        { name: "Nextjs", icon: "/images/icons8-nextjs-96.png" },
+        { name: "Framer-motion", icon: "/images/framer-motion.png" },
+        { name: "Firebase", icon: "/firebase.jfif" },
+        { name: "Expressjs", icon: "/images/icons8-react-native-96.png" },
+      ],
+      description: `<div className="flex flex-col"><div class="beanz-page-description">
+  <h1>AirBnb Clone</h1>
+  <p>This is an AirBnb Clone project built with Next.js 13+ (App Router), React, TypeScript, and Tailwind CSS</p>
+</div>
+
+</div>`,
+    },
+    {
+      id: 5,
       title: "NTT Medical Reservation",
       image: "",
-      index: 3,
+      index: 4,
       date: "2023",
       category: "Healthcare Application",
       techs: [
@@ -208,10 +231,10 @@ export default function WorksPage() {
       </div>`,
     },
     {
-      id: 5,
+      id: 6,
       title: "PetHealth Management System",
       image: "https://picsum.photos/750/500?random=14",
-      index: 4,
+      index: 5,
       date: "2023",
       category: "Healthcare Application",
       techs: [
@@ -247,10 +270,10 @@ export default function WorksPage() {
       </div>`,
     },
     {
-      id: 6,
+      id: 7,
       title: "ECAPP Education Platform",
       image: "https://picsum.photos/800/500?random=15",
-      index: 5,
+      index: 6,
       date: "2023",
       category: "Education Application",
       techs: [
@@ -287,10 +310,10 @@ export default function WorksPage() {
       </div>`,
     },
     {
-      id: 7,
+      id: 8,
       title: "Simulation T-Shirt Designer",
       image: "https://picsum.photos/650/500?random=16",
-      index: 6,
+      index: 7,
       date: "2023",
       category: "Design Tool",
       techs: [
@@ -325,10 +348,10 @@ export default function WorksPage() {
       </div>`,
     },
     {
-      id: 8,
+      id: 9,
       title: "Special Children Learning App",
       image: "https://picsum.photos/700/550?random=17",
-      index: 7,
+      index: 8,
       date: "2023",
       category: "Education Application",
       techs: [
@@ -365,10 +388,10 @@ export default function WorksPage() {
       </div>`,
     },
     {
-      id: 9,
+      id: 10,
       title: "SystemReplace Admin",
       image: "https://picsum.photos/750/550?random=18",
-      index: 8,
+      index: 9,
       date: "2023",
       category: "Admin System",
       techs: [
@@ -404,10 +427,10 @@ export default function WorksPage() {
       </div>`,
     },
     {
-      id: 10,
+      id: 11,
       title: "TerminologyServer",
       image: "https://picsum.photos/800/550?random=19",
-      index: 9,
+      index: 10,
       date: "2024",
       category: "Management System",
       techs: [
@@ -444,10 +467,10 @@ export default function WorksPage() {
       </div>`,
     },
     {
-      id: 11,
+      id: 12,
       title: "Construction Communication",
       image: "https://picsum.photos/700/500?random=20",
-      index: 10,
+      index: 11,
       date: "2024",
       category: "Communication System",
       techs: [
@@ -483,10 +506,10 @@ export default function WorksPage() {
       </div>`,
     },
     {
-      id: 12,
+      id: 13,
       title: "ERP Mobile Selling System",
       image: "https://picsum.photos/750/500?random=21",
-      index: 11,
+      index: 12,
       date: "2023",
       category: "ERP/CRM System",
       techs: [
