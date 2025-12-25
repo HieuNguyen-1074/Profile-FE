@@ -101,228 +101,421 @@ export default function WorksPage() {
     {
       id: 1,
       index: 0,
-      title: "Qixi Festival Campaign",
-      image: "https://picsum.photos/600/400?random=1",
+      title: "Meet the Beanz | Azuki Character ",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/anime-3b6ad.appspot.com/o/images%2FScreenshot_55.png?alt=media&token=8e8136de-9683-4bf1-a6f3-00985446e31d",
       date: "Nov 2023",
-      category: "Holiday Campaign",
-      description: `<div class="project-card-vertical">
-        <div class="image-container">
-          <img src="https://picsum.photos/600/400?random=1" alt="Qixi Festival Campaign" />
-        </div>
-        <div class="content">
-          <h3>Qixi Festival Campaign</h3>
-          <p>A romantic visual campaign celebrating the Chinese Valentine's Day, featuring elegant typography and traditional cultural elements merged with modern design aesthetics.</p>
-        </div>
-      </div>`,
+      category: "Personal Project ",
+      video:
+        "https://firebasestorage.googleapis.com/v0/b/anime-3b6ad.appspot.com/o/video%2Fbandicam%202025-12-24%2014-15-03-215.mp4?alt=media&token=6c5dffc2-9c84-4628-87d2-8e47b0c24f73",
+      techs: [
+        { name: "Nextjs", icon: "/images/icons8-nextjs-96.png" },
+        { name: "Framer-motion", icon: "/images/framer-motion.png" },
+        { name: "Firebase", icon: "/firebase.jfif" },
+        { name: "Expressjs", icon: "/images/icons8-react-native-96.png" },
+      ],
+      description: `<div className="flex flex-col"><div class="beanz-page-description">
+  <h1>Meet the Beanz | Azuki Character Collection</h1>
+  <p>Beanz are residents of the Garden, each with unique personalities. Meet Frida, Jay, Toshi, Link, Gus, Penny, Jelly, Ed, Johnny, and Pip - ten distinctive bean characters that have captured hearts across the community.</p>
+</div>
+
+</div>`,
     },
     {
       id: 2,
       index: 1,
-      title: "Brand Identity Design",
-      image: "https://picsum.photos/800/600?random=2",
+      title: "Asia Restaurant",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/anime-3b6ad.appspot.com/o/images%2FScreenshot_56.png?alt=media&token=450dd783-cf10-4670-9a78-b6216e5b4e6b",
       date: "Nov 2023",
-      category: "Branding",
-      description: `<div class="project-card-horizontal">
-        <img src="https://picsum.photos/800/600?random=2" alt="Brand Identity Design" class="left-img" />
-        <div class="text-content">
-          <h3>Brand Identity Design</h3>
-          <p>Comprehensive brand identity system including logo design, color palette, typography guidelines, and brand collateral for a contemporary lifestyle brand.</p>
-          <ul>
-            <li>Logo Design</li>
-            <li>Color System</li>
-            <li>Typography</li>
-          </ul>
-        </div>
-      </div>`,
+      category: "Personal Project ",
+      video:
+        "https://firebasestorage.googleapis.com/v0/b/anime-3b6ad.appspot.com/o/video%2Fbandicam%202025-12-24%2016-20-39-116.mp4?alt=media&token=4d07585f-4b8e-4953-a395-2d72ec44f458",
+      techs: [
+        { name: "Nextjs", icon: "/images/icons8-nextjs-96.png" },
+        { name: "Framer-motion", icon: "/images/framer-motion.png" },
+        { name: "Firebase", icon: "/firebase.jfif" },
+        { name: "Expressjs", icon: "/images/icons8-react-native-96.png" },
+      ],
+      description: `<div className="flex flex-col"><div class="beanz-page-description">
+  <h1>Asia Restaurant</h1>
+  <p>An Asian restaurant website typically features a warm, inviting design with cultural elements like bamboo motifs, Asian typography, or traditional patterns. The homepage showcases appetizing food photography of signature dishes, often with a hero section displaying the restaurant's ambiance or popular meals.</p>
+</div>
+
+</div>`,
     },
     {
       id: 3,
-      title: "Mobile App UI",
-      image: "https://picsum.photos/500/800?random=3",
       index: 2,
+      title: "Student-info-management",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/anime-3b6ad.appspot.com/o/images%2FScreenshot_57.png?alt=media&token=22121077-cddb-4f2e-bdc4-1e40a4490129",
       date: "Nov 2023",
-      category: "UI/UX Design",
-      description: `<div class="project-grid">
-        <div class="header-section">
-          <h3>Mobile App UI</h3>
-          <span class="category-badge">UI/UX Design</span>
-        </div>
-        <div class="image-gallery">
-          <img src="https://picsum.photos/500/800?random=3" alt="Mobile App UI" />
-        </div>
-        <div class="description-text">
-          <p>Intuitive mobile application interface design focused on user experience, featuring clean layouts, smooth animations, and accessible navigation patterns.</p>
+      category: "Personal Project ",
+      video:
+        "https://firebasestorage.googleapis.com/v0/b/anime-3b6ad.appspot.com/o/video%2Fbandicam%202025-12-25%2015-55-28-231.mp4?alt=media&token=328e8661-12ec-4045-8c26-e78ba5e6d506",
+      techs: [
+        { name: "Nextjs", icon: "/images/icons8-nextjs-96.png" },
+        { name: "Framer-motion", icon: "/images/framer-motion.png" },
+        { name: "Firebase", icon: "/firebase.jfif" },
+        { name: "Expressjs", icon: "/images/icons8-react-native-96.png" },
+      ],
+      description: `<div className="flex flex-col"><div class="beanz-page-description">
+  <h1>Student-info-management</h1>
+  <p>Welcome to your comprehensive exam management dashboard. Here you can track all your upcoming examinations, review past exam performances, and monitor your academic progress throughout the semester. Stay organized by viewing detailed information about each exam including dates, times, locations, and types. For completed exams, you can access your scores and analyze your performance trends. Use this dashboard to plan your study schedule effectively and ensure you never miss an important exam. All exam information is automatically updated and synchronized with the academic calendar to keep you informed in real-time.</p>
+</div>
+
+</div>`,
+    },
+    {
+      id: 4,
+      title: "NTT Medical Reservation",
+      image: "",
+      index: 3,
+      date: "2023",
+      category: "Healthcare Application",
+      techs: [
+        { name: "NuxtJS", icon: "/images/icons8-nextjs-96.png" },
+        { name: "VueJS", icon: "/images/icons8-react-native-96.png" },
+        { name: "Vuetify", icon: "/images/icons8-react-native-96.png" },
+      ],
+      description: `<div class="project-detail">
+        <h2>NTT Medical Reservation System</h2>
+        <p class="project-intro">An application that facilitates the reservation process between patients and medical institutions</p>
+        
+        <div class="project-info">
+          <h3>Project Methodology</h3>
+          <p>Agile and Scrum</p>
+          
+          <h3>Team Size</h3>
+          <p>Total: 6 members</p>
+          
+          <h3>Responsibilities</h3>
+          <ul>
+            <li>Frontend Developer - Patient mobile view module</li>
+            <li>Implement UI screens based on Figma design</li>
+            <li>Create common UI components</li>
+            <li>Refactor the code base to enhance performance and maintainability</li>
+            <li>Peer-review code according to project conventions</li>
+          </ul>
+          
+          <h3>Technologies</h3>
+          <p>NuxtJS, VueJS, SCSS, Vuetify</p>
+          
+          <h3>Tools</h3>
+          <p>Backlog, Google Chat, GitHub</p>
         </div>
       </div>`,
     },
     {
-      id: 4,
-      title: "Tokyo Paralympics Closing",
-      image: "https://picsum.photos/700/500?random=4",
-      index: 3,
-      date: "Nov 2023",
-      category: "Event Poster",
-      description: `<article class="project-magazine-layout">
-        <figure>
-          <img src="https://picsum.photos/700/500?random=4" alt="Tokyo Paralympics Closing" />
-          <figcaption>Tokyo Paralympics 2023</figcaption>
-        </figure>
-        <section>
-          <h3>Tokyo Paralympics Closing</h3>
-          <p class="lead">Dynamic poster design celebrating athletic achievement and diversity.</p>
-          <p>Incorporating bold colors and powerful imagery to commemorate the closing ceremony.</p>
-        </section>
-      </article>`,
-    },
-    {
       id: 5,
-      title: "Ji Xianlin 110th Anniversary",
-      image: "https://picsum.photos/900/600?random=5",
+      title: "PetHealth Management System",
+      image: "https://picsum.photos/750/500?random=14",
       index: 4,
-      category: "Memorial Design",
-      date: "Nov 2023",
-      description: `<div class="project-split-layout">
-        <div class="text-half">
-          <h3>Ji Xianlin 110th Anniversary</h3>
-          <p class="subtitle">Memorial Design</p>
-          <p>Commemorative design honoring the legacy of renowned scholar Ji Xianlin, blending traditional Chinese aesthetics with contemporary design principles.</p>
-          <div class="stats">
-            <span>110 Years</span>
-            <span>Legacy Design</span>
-          </div>
-        </div>
-        <div class="image-half">
-          <img src="https://picsum.photos/900/600?random=5" alt="Ji Xianlin 110th Anniversary" />
+      date: "2023",
+      category: "Healthcare Application",
+      techs: [
+        { name: "ReactJS", icon: "/images/icons8-react-native-96.png" },
+        { name: "Redux", icon: "/images/icons8-react-native-96.png" },
+        { name: "Socket.io", icon: "/images/icons8-react-native-96.png" },
+      ],
+      description: `<div class="project-detail">
+        <h2>PetHealth Management System</h2>
+        <p class="project-intro">An application designed for managing a hospital's pet care services</p>
+        
+        <div class="project-info">
+          <h3>Project Methodology</h3>
+          <p>Agile and Scrum</p>
+          
+          <h3>Team Size</h3>
+          <p>Total: 4 members</p>
+          
+          <h3>Responsibilities</h3>
+          <ul>
+            <li>Code the modules based on Figma design</li>
+            <li>Implement code functions and build reusable code</li>
+            <li>Optimize front-end project performance</li>
+            <li>Join daily meetings to provide direction and troubleshoot issues</li>
+          </ul>
+          
+          <h3>Technologies</h3>
+          <p>ReactJS, Axios, Redux, Socket.io, MUI</p>
+          
+          <h3>Tools</h3>
+          <p>GitLab, Jira, Visual Studio, Source Tree</p>
         </div>
       </div>`,
     },
     {
       id: 6,
-      title: "Product Photography",
-      image: "https://picsum.photos/650/450?random=6",
+      title: "ECAPP Education Platform",
+      image: "https://picsum.photos/800/500?random=15",
       index: 5,
-      category: "Photography",
-      date: "Nov 2023",
-      description: `<div class="project-minimal">
-        <img src="https://picsum.photos/650/450?random=6" alt="Product Photography" class="full-width" />
-        <div class="minimal-text">
-          <h3>Product Photography</h3>
-          <p>Professional product photography series showcasing premium goods through creative lighting, composition, and attention to detail.</p>
+      date: "2023",
+      category: "Education Application",
+      techs: [
+        { name: "ReactJS", icon: "/images/icons8-react-native-96.png" },
+        { name: "Redux", icon: "/images/icons8-react-native-96.png" },
+        { name: "Redux-Saga", icon: "/images/icons8-react-native-96.png" },
+      ],
+      description: `<div class="project-detail">
+        <h2>ECAPP Education Platform</h2>
+        <p class="project-intro">An application designed for managing students, class schedules, meetings, and assignment submissions</p>
+        
+        <div class="project-info">
+          <h3>Project Methodology</h3>
+          <p>Agile and Scrum</p>
+          
+          <h3>Team Size</h3>
+          <p>Total: 3 members</p>
+          
+          <h3>Responsibilities</h3>
+          <ul>
+            <li>Implement code functions and build reusable code</li>
+            <li>Optimize front-end project performance</li>
+            <li>Collaborate with UI/UX designers</li>
+            <li>Maintain and improve existing features</li>
+            <li>Collaborate directly with clients to understand business needs</li>
+          </ul>
+          
+          <h3>Technologies</h3>
+          <p>ReactJS, React Hook Form, Redux, Redux-Saga</p>
+          
+          <h3>Tools</h3>
+          <p>GitLab, Jira, Visual Studio</p>
         </div>
       </div>`,
     },
     {
       id: 7,
-      title: "Social Media Campaign",
-      image: "https://picsum.photos/750/550?random=7",
+      title: "Simulation T-Shirt Designer",
+      image: "https://picsum.photos/650/500?random=16",
       index: 6,
-      category: "Social Media",
-      date: "Nov 2023",
-      description: `<div class="project-overlay">
-        <div class="image-wrapper">
-          <img src="https://picsum.photos/750/550?random=7" alt="Social Media Campaign" />
-          <div class="overlay-content">
-            <h3>Social Media Campaign</h3>
-            <p>Engaging social media content strategy featuring eye-catching visuals, consistent branding, and optimized formats for multiple platforms.</p>
-            <div class="platforms">
-              <span>Instagram</span>
-              <span>Facebook</span>
-              <span>Twitter</span>
-            </div>
-          </div>
+      date: "2023",
+      category: "Design Tool",
+      techs: [
+        { name: "FabricJS", icon: "/images/icons8-react-native-96.png" },
+        { name: "jQuery", icon: "/images/icons8-react-native-96.png" },
+        { name: "SCSS", icon: "/images/icons8-tailwind-css-96.png" },
+      ],
+      description: `<div class="project-detail">
+        <h2>Simulation T-Shirt Designer</h2>
+        <p class="project-intro">An application that helps customers design their own T-shirts with provided patterns</p>
+        
+        <div class="project-info">
+          <h3>Project Methodology</h3>
+          <p>Agile and Scrum</p>
+          
+          <h3>Team Size</h3>
+          <p>Total: 3 members</p>
+          
+          <h3>Responsibilities</h3>
+          <ul>
+            <li>Front-end Software Developer</li>
+            <li>Implement interactive design features</li>
+            <li>Create custom pattern manipulation tools</li>
+          </ul>
+          
+          <h3>Technologies</h3>
+          <p>FabricJS, jQuery, SCSS</p>
+          
+          <h3>Tools</h3>
+          <p>GitLab, Jira, Visual Studio, Source Tree</p>
         </div>
       </div>`,
     },
     {
       id: 8,
-      title: "Anniversary Celebration",
-      image: "https://picsum.photos/600/700?random=8",
+      title: "Special Children Learning App",
+      image: "https://picsum.photos/700/550?random=17",
       index: 7,
-      category: "Event Design",
-      date: "Nov 2023",
-      description: `<div class="project-card-stacked">
-        <header>
-          <h3>Anniversary Celebration</h3>
-          <p class="date">Nov 2023</p>
-        </header>
-        <div class="image-section">
-          <img src="https://picsum.photos/600/700?random=8" alt="Anniversary Celebration" />
+      date: "2023",
+      category: "Education Application",
+      techs: [
+        { name: "ReactJS", icon: "/images/icons8-react-native-96.png" },
+        { name: "Axios", icon: "/images/icons8-react-native-96.png" },
+        { name: "AntD", icon: "/images/icons8-react-native-96.png" },
+      ],
+      description: `<div class="project-detail">
+        <h2>Special Children Learning App</h2>
+        <p class="project-intro">An application designed for letters and simple word recognition, and basic sentence creation</p>
+        
+        <div class="project-info">
+          <h3>Project Methodology</h3>
+          <p>Agile and Scrum</p>
+          
+          <h3>Team Size</h3>
+          <p>Total: 2 members</p>
+          
+          <h3>Responsibilities</h3>
+          <ul>
+            <li>Implement code functions and build reusable code</li>
+            <li>Optimize front-end project performance</li>
+            <li>Collaborate with UI/UX designers</li>
+            <li>Maintain and improve existing features</li>
+            <li>Collaborate directly with clients to understand business needs</li>
+          </ul>
+          
+          <h3>Technologies</h3>
+          <p>ReactJS, Axios, AntD</p>
+          
+          <h3>Tools</h3>
+          <p>GitLab, Jira, Visual Studio, Source Tree</p>
         </div>
-        <footer>
-          <p>Complete event branding and visual design for a milestone anniversary celebration, including invitations, signage, and digital displays.</p>
-        </footer>
       </div>`,
     },
     {
       id: 9,
-      title: "Anniversary Celebration",
-      image: "https://picsum.photos/850/500?random=9",
+      title: "SystemReplace Admin",
+      image: "https://picsum.photos/750/550?random=18",
       index: 8,
-      date: "Nov 2023",
-      category: "Event Design",
-      description: `<div class="project-sidebar-layout">
-        <aside class="sidebar">
-          <h3>Anniversary Celebration</h3>
-          <p class="category">Event Design</p>
-          <p>Elegant event design package featuring cohesive visual elements that honor tradition while embracing modern design sensibilities.</p>
-        </aside>
-        <main class="main-image">
-          <img src="https://picsum.photos/850/500?random=9" alt="Anniversary Celebration" />
-        </main>
+      date: "2023",
+      category: "Admin System",
+      techs: [
+        { name: "Next.js", icon: "/images/icons8-nextjs-96.png" },
+        { name: "React Query", icon: "/images/icons8-react-native-96.png" },
+        { name: "Tailwind", icon: "/images/icons8-tailwind-css-96.png" },
+      ],
+      description: `<div class="project-detail">
+        <h2>SystemReplace Admin System</h2>
+        <p class="project-intro">An admin system that focuses on managing orders, customers, products, and more</p>
+        
+        <div class="project-info">
+          <h3>Project Methodology</h3>
+          <p>Agile and Scrum</p>
+          
+          <h3>Team Size</h3>
+          <p>Total: 7 members</p>
+          
+          <h3>Responsibilities</h3>
+          <ul>
+            <li>Implement code functions and build reusable code</li>
+            <li>Optimize front-end project performance</li>
+            <li>Collaborate with UI/UX designers</li>
+            <li>Maintain and improve existing features</li>
+          </ul>
+          
+          <h3>Technologies</h3>
+          <p>Next.js, React Query, Tailwind CSS</p>
+          
+          <h3>Tools</h3>
+          <p>Git, Backlog, Visual Studio</p>
+        </div>
       </div>`,
     },
     {
       id: 10,
-      title: "Anniversary Celebration",
-      image: "https://picsum.photos/550/650?random=10",
+      title: "TerminologyServer",
+      image: "https://picsum.photos/800/550?random=19",
       index: 9,
-      date: "Nov 2023",
-      category: "Event Design",
-      description: `<div class="project-masonry">
-        <div class="text-block">
-          <h3>Anniversary Celebration</h3>
-          <p>Sophisticated anniversary branding combining classic design principles with contemporary visual language for a memorable celebration.</p>
-        </div>
-        <div class="image-block">
-          <img src="https://picsum.photos/550/650?random=10" alt="Anniversary Celebration" />
+      date: "2024",
+      category: "Management System",
+      techs: [
+        { name: "Next.js", icon: "/images/icons8-nextjs-96.png" },
+        { name: "React Query", icon: "/images/icons8-react-native-96.png" },
+        { name: "Tailwind", icon: "/images/icons8-tailwind-css-96.png" },
+        { name: "HeroUI", icon: "/images/icons8-react-native-96.png" },
+      ],
+      description: `<div class="project-detail">
+        <h2>TerminologyServer</h2>
+        <p class="project-intro">The system helps users work with matching terms and managing terminology</p>
+        
+        <div class="project-info">
+          <h3>Project Methodology</h3>
+          <p>Agile and Scrum</p>
+          
+          <h3>Team Size</h3>
+          <p>Total: 7 members</p>
+          
+          <h3>Responsibilities</h3>
+          <ul>
+            <li>Implement code functions and build reusable code</li>
+            <li>Optimize front-end project performance</li>
+            <li>Collaborate with UI/UX designers</li>
+            <li>Maintain and improve existing features</li>
+          </ul>
+          
+          <h3>Technologies</h3>
+          <p>Next.js, React Query, Tailwind CSS, HeroUI</p>
+          
+          <h3>Tools</h3>
+          <p>Git, Backlog, Visual Studio, Cursor</p>
         </div>
       </div>`,
     },
     {
       id: 11,
-      title: "Anniversary Celebration",
-      image: "https://picsum.photos/700/600?random=11",
+      title: "Construction Communication",
+      image: "https://picsum.photos/700/500?random=20",
       index: 10,
-      date: "Nov 2023",
-      category: "Event Design",
-      description: `<div class="project-featured">
-        <div class="featured-badge">Featured Project</div>
-        <img src="https://picsum.photos/700/600?random=11" alt="Anniversary Celebration" class="hero-image" />
-        <div class="featured-content">
-          <h3>Anniversary Celebration</h3>
-          <p>Comprehensive visual identity for special anniversary event, featuring custom illustrations and refined typography throughout all materials.</p>
-          <button class="view-more">View Details</button>
+      date: "2024",
+      category: "Communication System",
+      techs: [
+        { name: "ReactJS", icon: "/images/icons8-react-native-96.png" },
+        { name: "AWS Chime", icon: "/images/icons8-react-native-96.png" },
+        { name: "MUI", icon: "/images/icons8-react-native-96.png" },
+      ],
+      description: `<div class="project-detail">
+        <h2>Construction Communication System</h2>
+        <p class="project-intro">A system for video calling and messaging for construction teams</p>
+        
+        <div class="project-info">
+          <h3>Project Methodology</h3>
+          <p>Agile and Scrum</p>
+          
+          <h3>Team Size</h3>
+          <p>Total: 4 members</p>
+          
+          <h3>Responsibilities</h3>
+          <ul>
+            <li>Implement code functions and build reusable code</li>
+            <li>Optimize front-end project performance</li>
+            <li>Collaborate with UI/UX designers</li>
+            <li>Maintain and improve existing features</li>
+          </ul>
+          
+          <h3>Technologies</h3>
+          <p>ReactJS, Axios, MUI, AWS Chime</p>
+          
+          <h3>Tools</h3>
+          <p>Git, Backlog, Visual Studio</p>
         </div>
       </div>`,
     },
     {
       id: 12,
-      title: "Anniversary Celebration",
-      image: "https://picsum.photos/800/550?random=12",
+      title: "ERP Mobile Selling System",
+      image: "https://picsum.photos/750/500?random=21",
       index: 11,
-      date: "Nov 2023",
-      category: "Event Design",
-      description: `<div class="project-timeline">
-        <div class="timeline-marker">2023</div>
-        <div class="content-wrapper">
-          <h3>Anniversary Celebration</h3>
-          <img src="https://picsum.photos/800/550?random=12" alt="Anniversary Celebration" />
-          <p>Celebratory design suite creating a unified visual experience across print, digital, and environmental graphics for a landmark anniversary.</p>
-          <div class="deliverables">
-            <span>Print</span>
-            <span>Digital</span>
-            <span>Environmental</span>
-          </div>
+      date: "2023",
+      category: "ERP/CRM System",
+      techs: [
+        { name: "Vue2", icon: "/images/icons8-react-native-96.png" },
+        { name: "SCSS", icon: "/images/icons8-tailwind-css-96.png" },
+        { name: "Vuetify", icon: "/images/icons8-react-native-96.png" },
+      ],
+      description: `<div class="project-detail">
+        <h2>ERP Mobile Selling System</h2>
+        <p class="project-intro">ERP/CRM system for enhancing the effectiveness in selling mobile phones</p>
+        
+        <div class="project-info">
+          <h3>Project Methodology</h3>
+          <p>Agile and Scrum</p>
+          
+          <h3>Team Size</h3>
+          <p>Total: 6 members (1 PM, 5 developers)</p>
+          
+          <h3>Key Modules</h3>
+          <ul>
+            <li><strong>Request Payment Module:</strong> Helps employees make proposal requests with role hierarchy for approval</li>
+            <li><strong>Staff Transfer Module:</strong> Helps HR manage transfer processes and automate labor contract generation</li>
+          </ul>
+          
+          <h3>Technologies</h3>
+          <p>Vue2, SCSS, Vuetify</p>
+          
+          <h3>Tools</h3>
+          <p>VSCode, Tortoise SVN</p>
         </div>
       </div>`,
     },
@@ -390,12 +583,22 @@ export default function WorksPage() {
         <div className="flex items-center justify-center">
           {parse(selected?.description || "")}
         </div>
+        {selected?.video && (
+          <video
+            src={selected?.video}
+            controls
+            autoPlay
+            muted
+            loop
+            className="w-full h-auto"
+          ></video>
+        )}
       </div>
       <div className=" ml-auto w-full h-screen overflow-y-auto hide-scrollbar !pl-20">
         <motion.div
           ref={projectsRef}
           className="  w-fit  h-full  flex  gap-6 flex-col
-   items-center justify-center z-30"
+   items-start justify-start z-30"
         >
           <motion.div
             ref={viewMoreRef}
@@ -454,6 +657,41 @@ export default function WorksPage() {
           ))}
         </motion.div>
       </div>
+      {selected && (
+        <motion.div className=" fixed top-0 left-0 w-full h-full pointer-events-none flex items-end justify-end !pr-20 ">
+          {
+            <div className="  h-[calc(100vh-10px)] flex flex-col justify-center items-end  -z-10 ">
+              <p className="!mb-3">Techs .</p>
+              {selected?.techs?.map((tech, index) => (
+                <motion.p
+                  key={index}
+                  animate={{
+                    x: 0,
+                    opacity: 1,
+                  }}
+                  initial={{
+                    x: 50,
+                    opacity: 0,
+                  }}
+                  transition={{
+                    delay: index * 0.1,
+                  }}
+                  className="text-xs font-bold flex items-center gap-3"
+                >
+                  {tech.icon && (
+                    <img
+                      src={tech.icon}
+                      alt={tech.name}
+                      className="w-10 h-10"
+                    />
+                  )}
+                  {tech.name}
+                </motion.p>
+              ))}
+            </div>
+          }
+        </motion.div>
+      )}
       <motion.div
         initial={{
           x: "100%",
@@ -484,6 +722,8 @@ type Project = {
   date: string;
   category: string;
   description: string;
+  video?: string;
+  techs?: { name: string; icon?: string }[];
 };
 
 function calcProjectWeights(
