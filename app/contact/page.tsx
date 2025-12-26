@@ -106,9 +106,7 @@ export default function ContactPage() {
               <a
                 href="#"
                 className="text-sm text-gray-600 hover:text-black transition-colors underline"
-              >
-                Privacy Policy
-              </a>
+              ></a>
             </div>
           </div>
         </motion.div>
