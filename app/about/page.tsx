@@ -6,10 +6,16 @@ import FbIcon from "../../public/images/icons8-facebook-96.png";
 import LinkinIcon from "../../public/images/icons8-linkedin-48.png";
 import TailwindIcon from "../../public/images/icons8-tailwind-css-96.png";
 import NextjsIcon from "../../public/images/icons8-nextjs-96.png";
-import ReactIcon from "../../public/images/icons8-react-native-96.png";
+import ReactIcon from "../../public/images/React.png";
 import VsCodeIcon from "../../public/images/icons8-vs-code-96.png";
 import CopilotIcon from "../../public/images/icons8-github-copilot-96.png";
 import JiraIcon from "../../public/images/icons8-jira-96.png";
+import GitIcon from "../../public/images/Git.png";
+import JqueryIcon from "../../public/images/jquery_vertical_logo_icon_169489.png";
+import ReactQueryIcon from "../../public/images/react-query-icon-2dw36yx2b016w37mbipyn.webp";
+import SocketIoIcon from "../../public/images/Socket.io.png";
+import TypeScriptIcon from "../../public/images/TypeScript.png";
+import VueIcon from "../../public/images/Vue.js.png";
 import Image from "next/image";
 
 export default function AboutPage() {
@@ -64,11 +70,39 @@ export default function AboutPage() {
       name: "Tailwind CSS",
       icon: TailwindIcon,
     },
+    {
+      name: "Git",
+      icon: GitIcon,
+    },
+    {
+      name: "jQuery",
+      icon: JqueryIcon,
+    },
+    {
+      name: "React Query",
+      icon: ReactQueryIcon,
+    },
+    {
+      name: "Socket.io",
+      icon: SocketIoIcon,
+    },
+    {
+      name: "TypeScript",
+      icon: TypeScriptIcon,
+    },
+    {
+      name: "Vue.js",
+      icon: VueIcon,
+    },
   ];
   const tools = [
     {
       name: "VS Code",
       icon: VsCodeIcon,
+    },
+    {
+      name: "Git",
+      icon: GitIcon,
     },
     {
       name: "GitHub Copilot",
@@ -219,26 +253,25 @@ export default function AboutPage() {
           <div className="flex justify-between  gap-6 !mt-6">
             {/* Design Tools */}
             <motion.div
-              className=" rounded-3xl p-6"
+              className=" rounded-3xl p-6  w-1/3"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
-              whileHover={{ scale: 1.02 }}
             >
               <h3 className="text-white text-lg font-semibold mb-4">
                 Usage Framework & libraries
               </h3>
-              <div className="flex gap-3">
+              <div className="flex gap-3 !pt-4 flex-wrap">
                 {techs.map((tech, index) => (
                   <motion.div
                     key={index}
-                    className="bg-[#252525] p-2 rounded-lg"
+                    className=" p-2 rounded-lg"
                     whileHover={{ scale: 1.1, backgroundColor: "#2a2a2a" }}
                   >
                     <Image
                       src={tech.icon}
-                      width={48}
-                      height={48}
+                      width={40}
+                      height={40}
                       alt={tech.name}
                       className="object-contain"
                     />
@@ -249,24 +282,24 @@ export default function AboutPage() {
 
             {/* Editing Tools */}
             <motion.div
-              className=" rounded-3xl p-6"
+              className=" rounded-3xl  p-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.7 }}
               whileHover={{ scale: 1.02 }}
             >
               <h3 className="text-white text-lg font-semibold mb-4">Tools</h3>
-              <div className="flex gap-3">
+              <div className="flex gap-3 !pt-4 flex-wrap">
                 {tools.map((tool, index) => (
                   <motion.div
                     key={index}
-                    className="bg-[#252525] p-2 rounded-lg"
+                    className=" p-2 rounded-lg"
                     whileHover={{ scale: 1.1, backgroundColor: "#2a2a2a" }}
                   >
                     <Image
                       src={tool.icon}
-                      width={48}
-                      height={48}
+                      width={40}
+                      height={40}
                       alt={tool.name}
                       className="object-contain"
                     />
@@ -286,7 +319,7 @@ export default function AboutPage() {
               <h3 className="text-white text-lg font-semibold mb-4">
                 Languages
               </h3>
-              <div className="flex gap-3 text-2xl">
+              <div className="flex gap-3 text-2xl !pt-4 flex-wrap">
                 {languages.map((flag, index) => (
                   <motion.span
                     key={index}
@@ -310,7 +343,7 @@ export default function AboutPage() {
               <h3 className="text-white text-lg font-semibold mb-4">
                 Portfolio
               </h3>
-              <div className="grid grid-cols-2 ">
+              <div className="grid grid-cols-2  !pt-4">
                 {portfolioLinks.map((link, index) => (
                   <motion.a
                     key={index}
@@ -321,8 +354,8 @@ export default function AboutPage() {
                   >
                     <Image
                       src={link.icon}
-                      width={70}
-                      height={70}
+                      width={40}
+                      height={40}
                       alt={link.name}
                       className="inline-block  align-middle"
                     />

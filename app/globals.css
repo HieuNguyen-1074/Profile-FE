@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@0,100..200,100..900;1,100..200,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@0,100..200,100..900;1,100..200,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap');
 @import "tailwindcss";
 
 
@@ -34,10 +37,12 @@ body {
   color: var(--foreground);
     /* font-family: "Momo Trust Display", sans-serif; */
   /* font-family: "Roboto", sans-serif; */
-  font-family: "Inconsolata", monospace;
+  /* font-family: "Inconsolata", monospace; */
+  /* font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto; */
+font-family: "Cause", cursive;
 
-
-  font-style: normal;
+  /* font-style: normal; */
 }
 .font-momo {
   /* font-family: "Momo Trust Display", sans-serif; */

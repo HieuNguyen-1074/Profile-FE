@@ -51,107 +51,6 @@ export default function ContactPage() {
         {/* Main Content Grid */}
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {/* Left Column - Location Info */}
-          <motion.div
-            className="space-y-4"
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
-            <div>
-              <p className="text-sm text-gray-600">Manhattan, New York</p>
-              <p className="text-sm text-gray-600">10012</p>
-            </div>
-          </motion.div>
-
-          {/* Right Column - Contact Form */}
-          <motion.form
-            onSubmit={handleSubmit}
-            className="space-y-6"
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-          >
-            {/* Name Fields */}
-            <div>
-              <label className="block text-sm font-medium mb-2">
-                Name (required)
-              </label>
-              <div className="grid grid-cols-2 gap-4">
-                <input
-                  type="text"
-                  name="firstName"
-                  placeholder="First Name"
-                  value={formData.firstName}
-                  onChange={handleChange}
-                  required
-                  className="w-full border-b border-gray-300 py-2 px-0 focus:border-black focus:outline-none transition-colors text-sm"
-                />
-                <input
-                  type="text"
-                  name="lastName"
-                  placeholder="Last Name"
-                  value={formData.lastName}
-                  onChange={handleChange}
-                  required
-                  className="w-full border-b border-gray-300 py-2 px-0 focus:border-black focus:outline-none transition-colors text-sm"
-                />
-              </div>
-            </div>
-
-            {/* Service Dropdown */}
-
-            {/* Email Field */}
-            <div className="!mt-2">
-              <label className="block text-sm font-medium mb-2">
-                Email (required)
-              </label>
-              <input
-                type="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-                className="w-full border-b border-gray-300 py-2 px-0 focus:border-black focus:outline-none transition-colors text-sm"
-              />
-            </div>
-
-            {/* Sign Up Checkbox */}
-            <div className="flex items-center gap-2 !my-2">
-              <input
-                type="checkbox"
-                name="signUp"
-                id="signUp"
-                checked={formData.signUp}
-                onChange={handleChange}
-                className="w-4 h-4 rounded border-gray-300 text-black focus:ring-black"
-              />
-              <label htmlFor="signUp" className="text-sm text-gray-600">
-                Sign up for news and updates
-              </label>
-            </div>
-
-            {/* Project Description */}
-            <div>
-              <label className="block text-sm font-medium mb-2">Messages</label>
-              <textarea
-                name="projectDescription"
-                value={formData.projectDescription}
-                onChange={handleChange}
-                rows={4}
-                className="w-full border-b border-gray-300 py-2 px-0 focus:border-black focus:outline-none transition-colors resize-none text-sm"
-              />
-            </div>
-
-            {/* Submit Button */}
-            <motion.button
-              type="submit"
-              className="bg-black text-white !px-8 !py-3 !my-4 rounded-full text-sm font-medium hover:bg-gray-800 transition-colors cursor-pointer"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Submit
-            </motion.button>
-          </motion.form>
         </div>
 
         {/* Bottom Info Section */}
@@ -164,24 +63,17 @@ export default function ContactPage() {
           {/* Contact Info */}
           <div className="space-y-4">
             <div>
-              <p className="text-sm font-medium">contact@studio.com</p>
+              <p className="text-sm font-medium">hjeu1074@gmail.com</p>
             </div>
             <div>
-              <p className="text-sm text-gray-600">Manhattan, New York</p>
-              <p className="text-sm text-gray-600">10012</p>
+              <p className="text-sm text-gray-600">Ha noi , Viet Nam</p>
             </div>
           </div>
 
           {/* Phone and Hours */}
           <div className="space-y-4">
             <div>
-              <p className="text-sm font-medium">(+48) 762 864 075</p>
-            </div>
-            <div>
-              <p className="text-sm text-gray-600">Call us: 800-NYC-123</p>
-              <p className="text-sm text-gray-600">
-                Monday - Friday / 9AM - 5PM
-              </p>
+              <p className="text-sm font-medium">(+84) 762 864 075</p>
             </div>
           </div>
 
