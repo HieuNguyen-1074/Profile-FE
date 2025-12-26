@@ -188,7 +188,17 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen relative overflow-hidden flex justify-center items-center w-full ">
       <div className="pt-24 pb-20 px-4 sm:px-8 w-fit">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto flex-wrap flex ">
+          <div className="w-fit h-fit fixed top-1/2 left-0 flex justify-center items-center ">
+            <div className="w-[6.25rem] h-[2px] bg-black/50 "></div>
+            <a
+              href="/NguyenVanHieu_Mark_FrontEnd_Developer.pdf"
+              download="NguyenVanHieu_Mark_FrontEnd_Developer.pdf"
+              className="cursor-pointer bg-black/50 hover:bg-black/70 transition-colors px-4 py-2 rounded"
+            >
+              Download CV
+            </a>
+          </div>
           {/* Main Profile Card */}
           <motion.div
             className="grid lg:grid-cols-[auto_1fr] gap-6 !mb-6"
