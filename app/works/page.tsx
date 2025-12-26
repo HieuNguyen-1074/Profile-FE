@@ -112,7 +112,8 @@ export default function WorksPage() {
         { name: "Nextjs", icon: "/images/icons8-nextjs-96.png" },
         { name: "Framer-motion", icon: "/images/framer-motion.png" },
         { name: "Firebase", icon: "/firebase.jfif" },
-        { name: "Expressjs", icon: "/images/icons8-react-native-96.png" },
+        { name: "Expressjs", icon: "/images/Express.png" },
+        { name: "Tailwind", icon: "/images/icons8-tailwind-css-96.png" },
       ],
       description: `<div className="flex flex-col"><div class="beanz-page-description">
   <h1>Meet the Beanz | Azuki Character Collection</h1>
@@ -134,8 +135,11 @@ export default function WorksPage() {
       techs: [
         { name: "Nextjs", icon: "/images/icons8-nextjs-96.png" },
         { name: "Framer-motion", icon: "/images/framer-motion.png" },
-        { name: "Firebase", icon: "/firebase.jfif" },
-        { name: "Expressjs", icon: "/images/icons8-react-native-96.png" },
+        { name: "Tailwind", icon: "/images/icons8-tailwind-css-96.png" },
+        {
+          name: "React hook form",
+          icon: "/images/react-hook-form-logo-only.png",
+        },
       ],
       description: `<div className="flex flex-col"><div class="beanz-page-description">
   <h1>Asia Restaurant</h1>
@@ -157,8 +161,11 @@ export default function WorksPage() {
       techs: [
         { name: "Nextjs", icon: "/images/icons8-nextjs-96.png" },
         { name: "Framer-motion", icon: "/images/framer-motion.png" },
-        { name: "Firebase", icon: "/firebase.jfif" },
-        { name: "Expressjs", icon: "/images/icons8-react-native-96.png" },
+        { name: "Tailwind", icon: "/images/icons8-tailwind-css-96.png" },
+        {
+          name: "React hook form",
+          icon: "/images/react-hook-form-logo-only.png",
+        },
       ],
       description: `<div className="flex flex-col"><div class="beanz-page-description">
   <h1>Student-info-management</h1>
@@ -180,8 +187,11 @@ export default function WorksPage() {
       techs: [
         { name: "Nextjs", icon: "/images/icons8-nextjs-96.png" },
         { name: "Framer-motion", icon: "/images/framer-motion.png" },
-        { name: "Firebase", icon: "/firebase.jfif" },
-        { name: "Expressjs", icon: "/images/icons8-react-native-96.png" },
+        { name: "Tailwind", icon: "/images/icons8-tailwind-css-96.png" },
+        {
+          name: "React hook form",
+          icon: "/images/react-hook-form-logo-only.png",
+        },
       ],
       description: `<div className="flex flex-col"><div class="beanz-page-description">
   <h1>AirBnb Clone</h1>
@@ -196,11 +206,10 @@ export default function WorksPage() {
       image: "",
       index: 4,
       date: "2023",
-      category: "Healthcare Application",
+      category: "Company Project",
       techs: [
-        { name: "NuxtJS", icon: "/images/icons8-nextjs-96.png" },
-        { name: "VueJS", icon: "/images/icons8-react-native-96.png" },
-        { name: "Vuetify", icon: "/images/icons8-react-native-96.png" },
+        { name: "VueJS", icon: "/images/Vue.js.png" },
+        { name: "Vuetify", icon: "/images/Vuetify.png" },
       ],
       description: `<div class="project-detail">
         <h2>NTT Medical Reservation System</h2>
@@ -236,11 +245,11 @@ export default function WorksPage() {
       image: "https://picsum.photos/750/500?random=14",
       index: 5,
       date: "2023",
-      category: "Healthcare Application",
+      category: "Company Project",
       techs: [
-        { name: "ReactJS", icon: "/images/icons8-react-native-96.png" },
-        { name: "Redux", icon: "/images/icons8-react-native-96.png" },
-        { name: "Socket.io", icon: "/images/icons8-react-native-96.png" },
+        { name: "ReactJS", icon: "/images/React.png" },
+        { name: "Redux", icon: "/images/Redux.png" },
+        { name: "Socket.io", icon: "/images/Socket.io.png" },
       ],
       description: `<div class="project-detail">
         <h2>PetHealth Management System</h2>
@@ -275,11 +284,12 @@ export default function WorksPage() {
       image: "https://picsum.photos/800/500?random=15",
       index: 6,
       date: "2023",
-      category: "Education Application",
+      category: "Company Project",
       techs: [
-        { name: "ReactJS", icon: "/images/icons8-react-native-96.png" },
-        { name: "Redux", icon: "/images/icons8-react-native-96.png" },
-        { name: "Redux-Saga", icon: "/images/icons8-react-native-96.png" },
+        { name: "ReactJS", icon: "/images/React.png" },
+        { name: "Redux", icon: "/images/Redux.png" },
+        { name: "Redux-Saga", icon: "/images/Redux-Saga.png" },
+        { name: "Antd", icon: "/images/Ant-design.svg" },
       ],
       description: `<div class="project-detail">
         <h2>ECAPP Education Platform</h2>
@@ -315,11 +325,11 @@ export default function WorksPage() {
       image: "https://picsum.photos/650/500?random=16",
       index: 7,
       date: "2023",
-      category: "Design Tool",
+      category: "Company Project",
       techs: [
-        { name: "FabricJS", icon: "/images/icons8-react-native-96.png" },
-        { name: "jQuery", icon: "/images/icons8-react-native-96.png" },
-        { name: "SCSS", icon: "/images/icons8-tailwind-css-96.png" },
+        { name: "FabricJS", icon: "/images/Fabricjs.png" },
+        { name: "jQuery", icon: "/images/jQuery.png" },
+        { name: "SCSS", icon: "/images/SCSS.png" },
       ],
       description: `<div class="project-detail">
         <h2>Simulation T-Shirt Designer</h2>
@@ -353,11 +363,11 @@ export default function WorksPage() {
       image: "https://picsum.photos/700/550?random=17",
       index: 8,
       date: "2023",
-      category: "Education Application",
+      category: "Company Project",
       techs: [
-        { name: "ReactJS", icon: "/images/icons8-react-native-96.png" },
-        { name: "Axios", icon: "/images/icons8-react-native-96.png" },
-        { name: "AntD", icon: "/images/icons8-react-native-96.png" },
+        { name: "ReactJS", icon: "/images/React.png" },
+        { name: "Axios", icon: "/images/Axios.png" },
+        { name: "AntD", icon: "/images/Ant-design.svg" },
       ],
       description: `<div class="project-detail">
         <h2>Special Children Learning App</h2>
@@ -393,10 +403,13 @@ export default function WorksPage() {
       image: "https://picsum.photos/750/550?random=18",
       index: 9,
       date: "2023",
-      category: "Admin System",
+      category: "Company Project",
       techs: [
         { name: "Next.js", icon: "/images/icons8-nextjs-96.png" },
-        { name: "React Query", icon: "/images/icons8-react-native-96.png" },
+        {
+          name: "React Query",
+          icon: "/images/react-query-icon-2dw36yx2b016w37mbipyn.webp",
+        },
         { name: "Tailwind", icon: "/images/icons8-tailwind-css-96.png" },
       ],
       description: `<div class="project-detail">
@@ -432,12 +445,15 @@ export default function WorksPage() {
       image: "https://picsum.photos/800/550?random=19",
       index: 10,
       date: "2024",
-      category: "Management System",
+      category: "Company Project",
       techs: [
         { name: "Next.js", icon: "/images/icons8-nextjs-96.png" },
-        { name: "React Query", icon: "/images/icons8-react-native-96.png" },
+        {
+          name: "React Query",
+          icon: "/images/react-query-icon-2dw36yx2b016w37mbipyn.webp",
+        },
         { name: "Tailwind", icon: "/images/icons8-tailwind-css-96.png" },
-        { name: "HeroUI", icon: "/images/icons8-react-native-96.png" },
+        { name: "HeroUI", icon: "/images/HeroUI.png" },
       ],
       description: `<div class="project-detail">
         <h2>TerminologyServer</h2>
@@ -472,11 +488,11 @@ export default function WorksPage() {
       image: "https://picsum.photos/700/500?random=20",
       index: 11,
       date: "2024",
-      category: "Communication System",
+      category: "Company Project",
       techs: [
-        { name: "ReactJS", icon: "/images/icons8-react-native-96.png" },
-        { name: "AWS Chime", icon: "/images/icons8-react-native-96.png" },
-        { name: "MUI", icon: "/images/icons8-react-native-96.png" },
+        { name: "ReactJS", icon: "/images/React.png" },
+        { name: "AWS Chime", icon: "/images/AWS Chime.png" },
+        { name: "MUI", icon: "/images/MUI.png" },
       ],
       description: `<div class="project-detail">
         <h2>Construction Communication System</h2>
@@ -502,43 +518,6 @@ export default function WorksPage() {
           
           <h3>Tools</h3>
           <p>Git, Backlog, Visual Studio</p>
-        </div>
-      </div>`,
-    },
-    {
-      id: 13,
-      title: "ERP Mobile Selling System",
-      image: "https://picsum.photos/750/500?random=21",
-      index: 12,
-      date: "2023",
-      category: "ERP/CRM System",
-      techs: [
-        { name: "Vue2", icon: "/images/icons8-react-native-96.png" },
-        { name: "SCSS", icon: "/images/icons8-tailwind-css-96.png" },
-        { name: "Vuetify", icon: "/images/icons8-react-native-96.png" },
-      ],
-      description: `<div class="project-detail">
-        <h2>ERP Mobile Selling System</h2>
-        <p class="project-intro">ERP/CRM system for enhancing the effectiveness in selling mobile phones</p>
-        
-        <div class="project-info">
-          <h3>Project Methodology</h3>
-          <p>Agile and Scrum</p>
-          
-          <h3>Team Size</h3>
-          <p>Total: 6 members (1 PM, 5 developers)</p>
-          
-          <h3>Key Modules</h3>
-          <ul>
-            <li><strong>Request Payment Module:</strong> Helps employees make proposal requests with role hierarchy for approval</li>
-            <li><strong>Staff Transfer Module:</strong> Helps HR manage transfer processes and automate labor contract generation</li>
-          </ul>
-          
-          <h3>Technologies</h3>
-          <p>Vue2, SCSS, Vuetify</p>
-          
-          <h3>Tools</h3>
-          <p>VSCode, Tortoise SVN</p>
         </div>
       </div>`,
     },
@@ -659,7 +638,9 @@ export default function WorksPage() {
                 className="  cursor-pointer"
                 onClick={() => handleTitleClick(project)}
               >
-                <motion.p>{project.date}</motion.p>
+                <p className={`opacity-0 group-hover:opacity-50 duration-300`}>
+                  {project.category}
+                </p>
                 <motion.h2
                   animate={{
                     fontWeight: 700,
@@ -672,9 +653,6 @@ export default function WorksPage() {
                 >
                   {project.title}
                 </motion.h2>
-                <p className={`opacity-0 group-hover:opacity-50 duration-300`}>
-                  {project.category}
-                </p>
               </div>
             </motion.div>
           ))}

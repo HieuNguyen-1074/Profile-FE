@@ -16,6 +16,18 @@ import ReactQueryIcon from "../../public/images/react-query-icon-2dw36yx2b016w37
 import SocketIoIcon from "../../public/images/Socket.io.png";
 import TypeScriptIcon from "../../public/images/TypeScript.png";
 import VueIcon from "../../public/images/Vue.js.png";
+import ExpressJSIcon from "../../public/images/Express.png";
+import ReduxIcon from "../../public/images/Redux.png";
+import FramerMotionIcon from "../../public/images/framer-motion.png";
+import ReactHookFormIcon from "../../public/images/react-hook-form-logo-only.png";
+import VuetifyIcon from "../../public/images/Vuetify.png";
+import ReduxSagaIcon from "../../public/images/Redux-Saga.png";
+import AntdIcon from "../../public/images/ant-design.svg";
+import FabricJSIcon from "../../public/images/Fabricjs.svg";
+import AxiosIcon from "../../public/images/Axios.png";
+import HeroUIIcon from "../../public/images/HeroUI.png";
+import Avatar from "../../public/images/avatar.png";
+import MUIIcon from "../../public/images/MUI.png";
 import Image from "next/image";
 
 export default function AboutPage() {
@@ -23,6 +35,7 @@ export default function AboutPage() {
     {
       period: "March 2025 - Present",
       role: "Middle- Junior Frontend Developer",
+
       company: "HBLAB JSC",
       description:
         "Developed responsive web applications for various clients like Singapore , Korea, Japan , focusing on modern technology stack",
@@ -35,7 +48,8 @@ export default function AboutPage() {
     {
       period: "2022 - 2024",
       role: "Junior Developer",
-      company: "StartUp Labs",
+      company: "AISolutions JSC",
+
       description:
         "Developed interactive user interfaces, participated in full product lifecycle from concept to launch",
       achievements: [
@@ -94,6 +108,51 @@ export default function AboutPage() {
       name: "Vue.js",
       icon: VueIcon,
     },
+    {
+      name: "ExpressJS",
+      icon: ExpressJSIcon,
+    },
+    {
+      name: "Redux",
+      icon: ReduxIcon,
+    },
+    {
+      name: "Framer Motion",
+      icon: FramerMotionIcon,
+    },
+
+    {
+      name: "React Hook Form",
+      icon: ReactHookFormIcon,
+    },
+    {
+      name: "Vuetify",
+      icon: VuetifyIcon,
+    },
+    {
+      name: "Redux-Saga",
+      icon: ReduxSagaIcon,
+    },
+    {
+      name: "Ant Design",
+      icon: AntdIcon,
+    },
+    {
+      name: "FabricJS",
+      icon: FabricJSIcon,
+    },
+    {
+      name: "Axios",
+      icon: AxiosIcon,
+    },
+    {
+      name: "HeroUI",
+      icon: HeroUIIcon,
+    },
+    {
+      name: "MUI",
+      icon: MUIIcon,
+    },
   ];
   const tools = [
     {
@@ -146,7 +205,12 @@ export default function AboutPage() {
               <div className="relative w-48 h-48 rounded-3xl overflow-hidden bg-gray-800">
                 {/* Placeholder for profile image */}
                 <div className="w-full h-full flex items-center justify-center text-6xl">
-                  👨‍💻
+                  <Image
+                    src={Avatar}
+                    alt="Profile Image"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
               </div>
             </motion.div>
@@ -159,7 +223,7 @@ export default function AboutPage() {
               transition={{ duration: 0.6, delay: 0.1 }}
             >
               <h1 className="text-white text-2xl font-normal mb-4 leading-relaxed">
-                Hi My name is Hiếu. I&apos;m Mark{" "}
+                Hi My name is Hiếu. You can call me Mark{" "}
                 <span className="font-bold">I am frontend developer</span>{" "}
                 focused on creating elegant, high-performance web applications
                 with <span className="font-bold">3+ years</span> of development
@@ -190,7 +254,7 @@ export default function AboutPage() {
           {/* Experience and Education Grid */}
           <div className="grid lg:grid-cols-2 gap-6 mb-6">
             {/* Experience Cards */}
-            <div className="space-y-6">
+            <div className="!space-y-4">
               {experience.map((exp, index) => (
                 <motion.div
                   key={index}
@@ -202,7 +266,7 @@ export default function AboutPage() {
                   <div className="flex justify-between items-start mb-3">
                     <div>
                       <h3 className="text-white text-xl font-semibold">
-                        {exp.role.split(" ").pop()}
+                        {exp.role.split(" ").pop()} at {exp.company}
                       </h3>
                       <p className="text-white text-sm">{exp.role}</p>
                     </div>
@@ -266,7 +330,7 @@ export default function AboutPage() {
                   <motion.div
                     key={index}
                     className=" p-2 rounded-lg"
-                    whileHover={{ scale: 1.1, backgroundColor: "#2a2a2a" }}
+                    whileHover={{ scale: 1.1, backgroundColor: "#ffff" }}
                   >
                     <Image
                       src={tech.icon}
@@ -294,7 +358,7 @@ export default function AboutPage() {
                   <motion.div
                     key={index}
                     className=" p-2 rounded-lg"
-                    whileHover={{ scale: 1.1, backgroundColor: "#2a2a2a" }}
+                    whileHover={{ scale: 1.1, backgroundColor: "#ffff" }}
                   >
                     <Image
                       src={tool.icon}
@@ -343,7 +407,7 @@ export default function AboutPage() {
               <h3 className="text-white text-lg font-semibold mb-4">
                 Portfolio
               </h3>
-              <div className="grid grid-cols-2  !pt-4">
+              <div className="grid grid-cols-2  !pt-4 ">
                 {portfolioLinks.map((link, index) => (
                   <motion.a
                     key={index}
