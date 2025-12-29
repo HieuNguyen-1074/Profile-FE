@@ -78,7 +78,7 @@ export default function BlogPage() {
   ];
 
   return (
-    <div className="min-h-screen relative overflow-hidden bg-gradient-to-b from-[#1f2551] to-[#120b4f]">
+    <div className="min-h-screen relative overflow-hidden ">
       <motion.div
         className="absolute inset-0 opacity-10"
         style={{

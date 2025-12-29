@@ -600,11 +600,11 @@ export default function WorksPage() {
         <motion.div
           ref={projectsRef}
           className="  w-fit  h-full  flex  gap-6 flex-col
-   items-start justify-start z-30"
+   items-start justify-start z-30 !mt-20"
         >
           <motion.div
             ref={viewMoreRef}
-            className={`fixed z-20 w-fit h-fit bg-black  opacity-0  pointer-events-none`}
+            className={`fixed z-20 w-fit h-fit bg-black  opacity-0  pointer-events-none `}
           >
             Click for view more
           </motion.div>

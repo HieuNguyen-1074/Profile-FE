@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Noto_Sans_SC } from "next/font/google";
 import "./globals.css";
-import Navigation from "@/components/Navigation";
+
+import Main from "@/components/Main";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,10 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} w-screen h-screen  antialiased flex items-center`}
       >
-        <div className="bg-gradient-to-b  w-screen h-screen  from-[#1f2551]  to-[#120b4f] flex items-center">
-          <Navigation />
-          {children}
-        </div>
+        <Main>{children}</Main>
       </body>
     </html>
   );

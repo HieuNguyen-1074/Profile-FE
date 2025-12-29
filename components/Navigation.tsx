@@ -20,83 +20,75 @@ export default function Navigation() {
   ];
 
   return (
-    <motion.nav className=" fixed   w-fit   flex flex-col  justify-center items-center  top-0 right-0  z-50 bg-white rounded-2xl !px-3 !mt-3 !mr-2 py-2.5 h-12">
-      <div className="w-full mx-auto px-8   flex items-center justify-between">
-        {/* Logo */}
-        {/* <Link href="/">
+    <motion.nav className=" fixed   w-full   flex flex-col  justify-center items-center  top-0 right-0  z-50 !px-3 !mt-3 !mr-2 py-2.5 h-12  ">
+      <div className="w-full mx-auto px-8   flex items-center justify-end">
+        <div className="justify-self-center absolute left-1/2 -translate-x-1/2 ">
           <motion.div
-            className="flex items-center gap-3"
+            className="flex items-center gap-3 !pt-5"
             whileHover={{ scale: 1.05, rotate: 5 }}
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
-            <motion.div
-              className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 flex items-center justify-center text-white font-bold text-xl cursor-pointer"
-              animate={{
-                boxShadow: [
-                  "0 0 20px rgba(96, 165, 250, 0.5)",
-                  "0 0 40px rgba(168, 85, 247, 0.5)",
-                  "0 0 20px rgba(96, 165, 250, 0.5)",
-                ],
-              }}
-              transition={{ duration: 3, repeat: Infinity }}
-            >
-              M
+            <motion.div className="relative bg-[#1a1d51]  ">
+              <motion.h1 className="text-5xl font-bold">H</motion.h1>
+              <motion.span className="text-xs absolute top-0 right-0 -translate-y-1/2 translate-x-full">
+                Mark
+              </motion.span>
             </motion.div>
           </motion.div>
-        </Link> */}
-
-        {/* Navigation Items */}
-        <motion.div
-          className="flex  relative items-center gap-2 z-10 overflow-hidden"
-          animate={{ width: isMenuOpen ? "auto" : 0 }}
-          transition={{ type: "spring", stiffness: 200 }}
-        >
-          {navItems.map((item, index) => {
-            const isActive = false;
-            return (
-              <Link
-                key={item.id}
-                href={item.path}
-                onClick={() => setIsMenuOpen(false)}
-                className={isMenuOpen ? "" : "pointer-events-none"}
-              >
-                <motion.div
-                  className=" text-right relative flex flex-col gap-0.5 cursor-pointer"
-                  whileTap={{ scale: 0.95 }}
+        </div>
+        <motion.div className="w-fit  bg-white rounded-2xl  !py-2.5 !px-3 flex items-center justify-end">
+          <motion.div
+            className="flex  relative items-center gap-2 z-10 overflow-hidden "
+            animate={{ width: isMenuOpen ? "auto" : 0 }}
+            transition={{ type: "spring", stiffness: 200 }}
+          >
+            {navItems.map((item, index) => {
+              const isActive = false;
+              return (
+                <Link
+                  key={item.id}
+                  href={item.path}
+                  onClick={() => setIsMenuOpen(false)}
+                  className={isMenuOpen ? "" : "pointer-events-none"}
                 >
-                  <motion.span
-                    className={`block text-base text-right text-black transition-colors !pr-8 ${
-                      isActive ? "text-white" : " text-[#415598]"
-                    }`}
-                    animate={isActive ? { scale: [1, 1.05, 1] } : {}}
-                    transition={{ duration: 0.3 }}
+                  <motion.div
+                    className=" text-right relative flex flex-col gap-0.5 cursor-pointer"
+                    whileTap={{ scale: 0.95 }}
                   >
-                    {item.label}
-                  </motion.span>
-                  {isActive && (
-                    <motion.div
-                      layoutId="activeNav"
-                      className="w-full h-0.5 text-white bg-white"
-                      initial={false}
-                      transition={{
-                        type: "spring",
-                        stiffness: 300,
-                        damping: 30,
-                      }}
-                    />
-                  )}
-                </motion.div>
-              </Link>
-            );
-          })}
+                    <motion.span
+                      className={`block text-base text-right text-black transition-colors !pr-8 ${
+                        isActive ? "text-white" : " text-[#415598]"
+                      }`}
+                      animate={isActive ? { scale: [1, 1.05, 1] } : {}}
+                      transition={{ duration: 0.3 }}
+                    >
+                      {item.label}
+                    </motion.span>
+                    {isActive && (
+                      <motion.div
+                        layoutId="activeNav"
+                        className="w-full h-0.5 text-white bg-white"
+                        initial={false}
+                        transition={{
+                          type: "spring",
+                          stiffness: 300,
+                          damping: 30,
+                        }}
+                      />
+                    )}
+                  </motion.div>
+                </Link>
+              );
+            })}
+          </motion.div>
+          <Image
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="w-8 h-8 z-50 relative cursor-pointer"
+            src={MenuIcon}
+            alt="Menu Icon"
+          />
         </motion.div>
-        <Image
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="w-8 h-8 z-50 relative cursor-pointer"
-          src={MenuIcon}
-          alt="Menu Icon"
-        />
       </div>
     </motion.nav>
   );
