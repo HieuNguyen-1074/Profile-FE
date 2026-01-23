@@ -25,7 +25,7 @@ export default function ContactPage() {
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >
+    >,
   ) => {
     const { name, value, type } = e.target;
     setFormData((prev) => ({
@@ -73,7 +73,7 @@ export default function ContactPage() {
           {/* Phone and Hours */}
           <div className="space-y-4">
             <div>
-              <p className="text-sm font-medium">(+84) 762 864 075</p>
+              {/* <p className="text-sm font-medium">(+84) 762 864 075</p> */}
             </div>
           </div>
 
