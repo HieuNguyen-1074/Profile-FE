@@ -16,9 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "三秋十李 - 产品设计师",
-  description:
-    "一个在产品设计届努力攀登的新生，拥有一颗毫无边界的好奇心和一股心无旁骛的探索力",
+  title: "",
+  description: "",
 };
 
 export default function RootLayout({
