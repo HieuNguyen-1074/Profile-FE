@@ -48,8 +48,8 @@ export default function AboutPage() {
   const education = [
     {
       year: "2019 - 2023",
-      degree: "Bachelor of Information and Technology with 3.2 GPA",
-      school: "Ha noi University of  Neural Resources and Environment",
+      degree: "Bachelor of IT with 3.2 GPA",
+      school: "Ha noi University of  Neutral Resources and Environment",
       description: "Focused on software engineering and web development",
     },
   ];
@@ -211,7 +211,7 @@ export default function AboutPage() {
                   <div className="flex justify-between items-start mb-3">
                     <div>
                       <h3 className="text-white text-xl font-semibold">
-                        {edu.degree.split(" ").slice(0, 2).join(" ")}
+                        {edu.degree}
                       </h3>
                       <p className="text-white/60 text-sm">{edu.school}</p>
                     </div>
