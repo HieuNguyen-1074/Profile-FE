@@ -48,7 +48,7 @@ export default function AboutPage() {
   const education = [
     {
       year: "2019 - 2023",
-      degree: "Bachelor of Information and Technology",
+      degree: "Bachelor of Information and Technology with 3.2 GPA",
       school: "Ha noi University of  Neural Resources and Environment",
       description: "Focused on software engineering and web development",
     },
